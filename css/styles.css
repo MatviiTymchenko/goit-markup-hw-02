@@ -17,10 +17,7 @@ a {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-.footer-logo {
-  font-weight: 700;
+  color: #4d5ae5;
 }
 .header-logo .logo-part {
   color: #2e2f42;
@@ -28,7 +25,10 @@ a {
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
-.nav-link {
+.footer-logo {
+  color: #4d5ae5;
+}
+.footer-logo .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -50,7 +50,7 @@ a {
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
-  background-color: ;
+  background-color: #404bbf;
 }
 .contacts {
   font-style: normal;
@@ -68,7 +68,7 @@ a {
 .main-section {
   background-color: #2e2f42;
 }
-.title {
+.tittle {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -85,6 +85,20 @@ a {
   color: #fff;
   cursor: pointer;
 }
+.values-info {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.values-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .team-section {
   background-color: #f4f4fd;
 }
@@ -99,7 +113,7 @@ a {
   text-align: center;
   color: #2e2f42;
 }
-.team-pos {
+.team-items p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -121,6 +135,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-info {
   font-weight: 500;
@@ -129,8 +144,7 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.portfolio-info p {
-  background-color: ;
+.portfolio-items p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
